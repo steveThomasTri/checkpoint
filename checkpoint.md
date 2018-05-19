@@ -99,7 +99,7 @@
     * someCar
     * myFunction
     * Honda
-    * ReferenceError: myCar is not defined :white_check_mark:
+    * ReferenceError: myCar is not defined
 
 ### 9
 
