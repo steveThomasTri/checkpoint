@@ -3,6 +3,8 @@
 
 ### 1 
 
+1. What is ES6/ES2015? - `ES6`, `ES2015`, `ECMAScript`, `vocab`
+
    :question: ES6/ES2015 is the sixth major release of the ECMAScript language specification which is commonly known as ___.
 
    * a front-end only language
@@ -13,6 +15,8 @@
 
 ### 2 
 
+1. Scoping Definitions  - `var`, `let`, `const`, `block-scope`, `functional-scope`, `vocab`
+
    :question: Variables declared with the ```var``` keyword are ___ scoped, while those declared with ```const``` or ```let``` are ___ scoped.
 
    * functionally, block
@@ -22,6 +26,8 @@
 
 
 ### 3 
+
+1. Scoping Example 1 - `var`, `functional-scope`
 
     :question: What will be the output of the following code?
     ``` JavaScript
@@ -39,6 +45,8 @@
 
 ### 4 
 
+1. Scoping Example 2 - `let`, `functional-scope`
+
     :question: What will be the output of the following code?
     ``` JavaScript
     for (let i=0; i<5; i++) {
@@ -55,6 +63,8 @@
 
 ### 5 
 
+1. Const vs Let with Strings and Numbers - `let`, `const`, `vocab`
+
     :question: A string or number type declared with ___ cannot have its value changed. A string or number type declared with a ___ can have its value changed.
     * ```let```, ```let```
     * ```const```, ```const```
@@ -64,6 +74,8 @@
 
 ### 6 
 
+1. Const vs Let with Arrays and Objects - `let`, `const`, `vocab`
+
     :question: An array or object type declared with ___ can have its value be changed but cannot be reassigned. An array or object declared with ___ can have its value be changed or reassigned.
     * ```let```, ```let```
     * ```const```, ```const```
@@ -72,6 +84,8 @@
 
 
 ### 7 
+
+1. Template Literals - `template-literals`, `syntax`
 
     :question: In the code below, we can re-write the console log statement using template litereals as follows:
     ```JavaScript
@@ -86,6 +100,8 @@
 
 
 ### 8 
+
+1. ES6 Objects - `objects`, `ES6`, `syntax`
 
     :question: What is the value of myObject.friends in the ES6 code below?
     ```JavaScript
@@ -102,6 +118,8 @@
 
 ### 9 
 
+1. ES6 String Methods - `startsWith`, `endsWith`, `includes`, `ES6`, `vocab`
+
     :question: ___ is a new ES6 string method.
     * ```startsWith()```
     * ```endsWith()```
@@ -110,6 +128,8 @@
 
 
 ### 10 
+
+1. map Method - `map`, `ES6`, `syntax`
 
     :question: What will be logged by the code below?
     ```JavaScript
@@ -131,6 +151,8 @@
 
 ### 11 
 
+1. Array Method - `filter`, `ES6`, `vocab`
+
     :question: ___ is an array method that creates a new array with elements that pass the test of a provided function.
     * ```map()```
     * ```reduce()```
@@ -139,6 +161,8 @@
 
 
 ### 12 
+
+1. Arrow Functions - `arrow-functions`, `syntax`
 
     :question: Rewrite the forEach function in the code below as an arrow function:
     ```JavaScript
@@ -159,6 +183,8 @@
 
 ### 13 
 
+1. Lexical binding - `arrow-functions`, `lexical-binding`, `this`, `vocab`
+
     :question: Arrow functions lexically bind the `this` value which means they use the `this` of ___.
     * their child functions
     * their enclosing content
@@ -167,6 +193,8 @@
 
 
 ### 14 
+
+1. Destructuring Objects - `destructuring`, `syntax`
 
     :question: Using destructuring, we can rewrite the last two lines of the code below that define occupation and birthplace as follows:
     ```JavaScript
@@ -185,6 +213,8 @@
 
 ### 15 
 
+1. Purpose of Babel - `transpiling`, `babel`, `vocab`
+
     :question: The primary purpose of a transpiling tool like Babel is to:
     * improve code execution performance
     * avoid syntax errors
@@ -194,6 +224,8 @@
 
 ### 16 
 
+1. Exporting ES2015 modules - `exports`, `vocab`
+
     :question: With ES2015 modules, a file can have multiple ___ exports but only one ___ export.
     * named, default
     * variable, primary
@@ -202,6 +234,8 @@
 
 
 ### 17 
+
+1. Classes - `class`, `vocab`, `syntax`
 
     :question: Using the Cats class defined below, a new hungry and sleepy cat would be initialized with ___.
     ```JavaScript
@@ -224,6 +258,8 @@
 
 ### 18 
 
+1. Alternative Package Manager - `yarn`, `vocab`
+
     :question: ___ is an open source JavaScript package manager alternative to npm.
     * create-react-app
     * yarn
@@ -232,6 +268,8 @@
 
 
 ### 19 
+
+1. React benefits - `react`, `tech-knowledge`
 
     :question: Benefits of using React include:
     * Fast learning curve compared to other JS libraries like Angular, Ember
@@ -242,6 +280,8 @@
 
 ### 20 
 
+1. JS Syntax Extension - `JSX`, `tech-knowledge`
+
     :question: ___ is a syntax extension to JavaScript that looks like ___, and makes it easy to describe the UI a component should produce.
     * JSX, HTML
     * React, Handlebars
@@ -250,6 +290,8 @@
 
 
 ### 21 
+
+1. Create React App - `create-react-app`, `syntax`
 
     :question: After scaffolding a React app using Create React App, it can be started up in developer mode with the command ___.
     * ```npm init```
@@ -260,6 +302,8 @@
 
 ### 22 
 
+1. React App Execution - `create-react-app`, `tech-knowledge`
+
     :question: Execution of a React application built with create-react-app begins with the ___ located in the ___ folder.
     * index.js, src 
     * index.html, public
@@ -268,6 +312,8 @@
 
 
 ### 23 
+
+1. React Static assets - `react`, `tech-knowledge`
 
     :question: External CDNs can be linked in the ___ file, and static assets placed in the ___ folder, that will not be processed by Babel or Webpack.
     * index.js, src
@@ -278,6 +324,8 @@
 
 ### 24 
 
+1. Components placement - `react`, `components`, `tech-knowledge`
+
     :question: Components should be placed in the ___ folder.
     * src
     * public
@@ -286,6 +334,8 @@
 
 
 ### 25 
+
+1. JSX Requirement - `react`, `JSX`, `tech-knowledge`
 
     :question: When using JSX inside of JavaScript, the ___ must be imported.
     * node modules
@@ -296,6 +346,8 @@
 
 ### 26 
 
+1. ReactDOM.render - `react`, `ReactDOM.render`, `tech-knowledge`
+
     :question: The second argument to the ReactDOM.render method is ___.
     * index.js containing components to be rendered
     * index.html containing links to other assets
@@ -304,6 +356,8 @@
 
 
 ### 27 
+
+1. Rendering multiple JSX elements - `react`, `JSX`, `syntax`
 
     :question: Normally when rendering multiple JSX elements, they should be ___.
     * enclosed within a parent element
@@ -314,6 +368,8 @@
 
 ### 28 
 
+1. JSX Class Exception - `JSX`, `class`, `syntax`
+
     :question: Since ```class``` is a reserved word in JavaScript, HTML classes are referred to with ___ in JSX.
     * ```classID```
     * ```classJSX```
@@ -322,6 +378,8 @@
 
 
 ### 29 
+
+1. Closing JSX Elements - `JSX`, `syntax`
 
     :question: Self-closing JSX elements must be closed with ___.
     * ```/``` 
@@ -332,6 +390,8 @@
 
 ### 30 
 
+1. Commenting JSX - `JSX`, `syntax`
+
     :question: Inside JSX, comments can be written inside curly braces as follows:
     * ```// comment //```
     * ```:: comment ::```
@@ -340,6 +400,8 @@
 
 
 ### 31 
+
+1. JS Expresssions in JSX - `JSX`, `syntax`
 
     :question: Entire JavaScript expressions can be placed within ___ and evaluated inside JSX code.
     * parentheses
@@ -350,6 +412,8 @@
 
 ### 32 
 
+1. Component Styles - `components`, `tech-knowledge`
+
     :question: Components can have their own individual styles defined using:
     * CSS stylesheets only
     * inline styles only
@@ -358,6 +422,8 @@
 
 
 ### 33 
+
+1. JSX Style Properties - `JSX`, `props`, `tech-knowledge`
 
     :question: A JSX style property must be ___.
     * an object
@@ -368,6 +434,8 @@
 
 ### 34 
 
+1. Passing Props - `react`, `props`, `components`, `tech-knowledge`
+
     :question: Props can be passed into a component by:
     * Setting an attribute to the rendered component's tag
     * Passing an expression between the component's tags
@@ -376,6 +444,8 @@
 
 
 ### 35 
+
+1. Prop Types - `react`, `props`, `tech-knowledge`
 
     :question: The type of data that can be passed as a prop is ___.
     * strings and numbers
@@ -386,6 +456,8 @@
 
 ### 36 
 
+1. Data Flow - `react`, `tech-knowledge`
+
     :question: In React apps, data flows from ___.
     * parent to child only
     * child to parent only
@@ -394,6 +466,8 @@
 
 
 ### 37 
+
+1. Importing Folders - `react`, `import`, `tech-knowledge`
 
     :question: When importing a component's folder instead of a file, the folder's ___ file is imported by default if it exists.
     * public.js
@@ -404,6 +478,8 @@
 
 ### 38 
 
+1. Component Data - `react`, `state`, `vocab`
+
     :question: To associate data with components, and keep track of any values that need to update the UI when changed, ___ can be used.
     * state 
     * variables
@@ -412,6 +488,8 @@
 
 
 ### 39 
+
+1. Updating Data - `react`, `setState`, `vocab`
 
     :question: Using the ___ method to update component data causes the component to re-render itself and all its children with the new data.
     * render()
@@ -422,6 +500,8 @@
 
 ### 40 
 
+1. React Event Handlers - `react`, `onClick`, `onSubmit`, `onChange`
+
     :question: ___ is a common React event name.
     * onClick
     * onSubmit
@@ -430,6 +510,8 @@
 
 
 ### 41 
+
+1. Child Component Update - `react`, `components`, `tech-knowledge`
 
     :question: Child components can update their parent's state by ___.
     * passing them a method created in the parent
@@ -440,6 +522,8 @@
 
 ### 42 
 
+1. Rendering JSX - `react`, `render`, `tech-knowledge`
+
     :question: The ___ method built in to React returns the JSX that a component should render and must be included in every class component.
     * setState()
     * render()
@@ -448,6 +532,8 @@
 
 
 ### 43 
+
+1. Component Lifecycle Event - `react`, `componentDidMount`, `tech-knowledge`
 
     :question: The ___ method is a component lifecycle event built into React that automatically runs once after the component is rendered for the first time.
     * handleInputChange()
@@ -458,6 +544,8 @@
 
 ### 44 
 
+1. App Component Structure - `react`, `stateless`, `stateful`, `tech-knowledge`
+
     :question: Most components should be ___ and concerned mainly for some part of the app's presentation. Few components should be ___ and concerned for the app's business logic and controlling presentational components.
     * stateless, stateful
     * eventful, stateless
@@ -467,6 +555,8 @@
 
 ### 45 
 
+1. JSX Decisions - `react`, `JSX`, `ternary`
+
     :question: Since ```if``` statements cannot be written inside JSX curly braces, instead ___ can be used for simple conditional logic.
     * switch statements
     * ternary expressions
@@ -475,6 +565,8 @@
 
 
 ### 46 
+
+1. React Router - `react-router`, `tech-knowledge`
 
     :question: The React Router library allows rendering of other components based on ___.
     * server inputs
